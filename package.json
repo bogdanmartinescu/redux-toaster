@@ -1,0 +1,55 @@
+{
+  "name": "react-redux-toaster",
+  "version": "1.0.0",
+  "description": "A highly configurable Redux Toaster component",
+  "main": "./dist",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "build": "webpack -p",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bogdanmartinescu/react-redux-toaster.git"
+  },
+  "homepage": "https://github.com/bogdanmartinescu/react-redux-toaster",
+  "bugs": "https://github.com/bogdanmartinescu/react-redux-toaster/issues",
+  "author": "Bogdan M <hi@mlb.ro> (http://mlb.ro/)",
+  "license": "MIT",
+  "tags": [
+    "react",
+    "redux",
+    "toaster messages",
+    "flash messages"
+  ],
+  "keywords": [
+    "react",
+    "redux",
+    "toaster messages",
+    "flash messages"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "enzyme": "^3.9.0",
+    "jest": "^24.7.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}
