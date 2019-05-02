@@ -5,15 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
     <style>
-        .toast-container {
+        body {
+            font-family: Helvetica, 'Helvetica Neue', sans-serif;
+        }
+        .ui__toast-container {
             position: fixed;
             right: 2%;
             top: 5%;
             border: 1px solid #000;
             min-height: 200px;
-            width: 600px;
+            width: 400px;
             background: transparent;
+        }
+
+        .ui__toast-item {
+            flex: 1;
+            flex-direction: row;
+            background: #eee;
+            min-height: 20px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-family: inherit;
+            font-size: .8em;
+            text-shadow: 2px 2px 4px #fff;
+            color: #444;
+            padding: 20px;
         }
     </style>
 </head>
